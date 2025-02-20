@@ -1,0 +1,17 @@
+.subscription-panel {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.checkbox-group div {
+  margin-right: 10px;
+}

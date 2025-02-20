@@ -1,0 +1,50 @@
+.admin-panel {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  color: #333;
+}
+
+.admin-panel h2 {
+  text-align: center;
+}
+
+.admin-panel form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-panel input[type="text"],
+.admin-panel textarea,
+.admin-panel select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.admin-panel textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.admin-panel button {
+  padding: 10px;
+  background: #1d2b64;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-panel button:hover {
+  background: #163051;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

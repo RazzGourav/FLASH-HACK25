@@ -1,0 +1,19 @@
+{
+  "name": "notice-board-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Centralized Digital Notice Board with integrated ML categorization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

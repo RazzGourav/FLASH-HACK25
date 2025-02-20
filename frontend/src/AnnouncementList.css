@@ -1,0 +1,28 @@
+.announcement-list {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.announcement {
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.7);
+  color: #333;
+}
+
+/* Priority classes */
+.high-priority {
+  border-color: red !important;
+}
+
+.medium-priority {
+  border-color: orange !important;
+}
+
+.low-priority {
+  border-color: gray !important;
+}

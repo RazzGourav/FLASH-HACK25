@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(270deg, #1d2b64, #f8cdda);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: #fff;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
